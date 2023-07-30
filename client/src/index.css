@@ -1,0 +1,31 @@
+
+
+.navbar{
+  background-color: rgb(7, 112, 231)!important;
+  border-bottom: 1px solid rgb(126, 133, 28);
+
+}
+
+.nav-link{
+  color: white !important;
+}
+.navbar-brand{
+  color: rgb(184, 182, 209) !important;
+}
+
+h1{
+  font-size: 16px !important;
+  text-align: left !important;
+  color: black !important;
+}
+
+.img-fluid{
+  height: 200px !important;
+  text-align: center !important;
+}
+.navbar-nav{
+  margin-left: auto !important;
+
+
+}
+
