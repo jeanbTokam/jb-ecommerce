@@ -16,7 +16,7 @@ export default function Navbar() {
                        
                         <a className="nav-link" href="#">Login</a>
                         <a className="nav-link disabled">
-                        <i class="fas fa-shopping-cart"></i>
+                        <i className="fas fa-shopping-cart"></i>
                         </a>
                     </div>
                 </div>
