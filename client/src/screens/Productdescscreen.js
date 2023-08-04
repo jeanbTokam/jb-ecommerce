@@ -1,9 +1,12 @@
 import React from 'react'
-import products from '../products'
+
 import { useParams } from 'react-router-dom'
 
 
 export default function Productdescscreen() {
+
+    const products = []
+    
     const { id } = useParams();
     const product = products.find((p) => String(p.id) === id);
     console.log(product)

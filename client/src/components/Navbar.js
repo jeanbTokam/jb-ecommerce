@@ -1,13 +1,12 @@
 import React from 'react'
 
 
-
 export default function Navbar() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg ">
 
-                <a className="navbar-brand" href="#">JB-STORE</a>
+                <a className="navbar-brand" href="/">JB-STORE</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -22,13 +21,6 @@ export default function Navbar() {
                 </div>
 
             </nav>
-
-
-
-
-
-
-
         </div>
     )
 }
